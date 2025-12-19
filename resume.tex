@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Aagam Kumar Jain} \\ \vspace{1pt}
+    \small +91 9872942071 $|$ \href{mailto:x@x.com}{\underline{aagamkjain@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/aagam-jain-571b27242/}{\underline{aagam-jain-571b27242/}} $|$
+    \href{https://github.com/aagamkjaain}{\underline{aagamkjaain}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM University}{Chennai, TN}
+      {Bachelor of Technology in Computer Science
+        CGPA - 9.2}
+      {Aug. 2024 -- May 2028}
+    \resumeSubheading
+      {NS singhvi High}{Madhya Pradesh}
+      {80\% }{Aug. 2014 -- May 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Placement facilitating volunteer}{}
+      {Placfv's}{SRM}
+      \resumeItemListStart
+        \resumeItem{volunteered for many placements in SRM as a student volunteer}
+        \resumeItem{campus ambassador for capgemini brand quest.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Technical Assosiate lead}{}
+      {QDC}{SRM}
+      \resumeItemListStart
+        \resumeItem{Led end-to-end planning and execution of a university-level hackathon with cross-functional coordination}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Research intern}{}
+      {Skill First Labs}{chennai}
+      \resumeItemListStart
+        
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Anakto} $|$ \emph{Solidity, zkSync, JavaScript, Express.js, MongoDB}}{}
+          \resumeItemListStart
+            \resumeItem{Built a modular smart-contract–based crypto wallet on zkSync with account abstraction features}
+            \resumeItem{Implemented inheritance logic, spending limits, and automated fund transfers to prevent asset loss}
+            \resumeItem{Designed backend services in Express.js to manage wallet metadata and user configurations}
+            \resumeItem{Integrated off-chain storage with MongoDB while keeping critical security logic on-chain}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Stockverse} $|$ \emph{React, Node.js, FastAPI, Python, Git}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+            \resumeItem{Designed backend services using FastAPI to simulate market events and pricing logic}
+            \resumeItem{Implemented interactive leaderboards and user progression to drive engagement}
+            \resumeItem{Integrated AI-driven market events to create dynamic, scenario-based investing simulations}
+          \resumeItemListEnd
+       \resumeProjectHeading
+          {\textbf{Emulsify} $|$ \emph{Python, Flask, React, LangChain, Weaviate, Gemini Pro}}{}
+          \resumeItemListStart
+            \resumeItem{Built a Retrieval-Augmented Generation (RAG) system for querying unstructured PDF documents}
+            \resumeItem{Implemented OCR-based text extraction using PaddleOCR for scanned and non-searchable PDFs}
+            \resumeItem{Designed semantic chunking and vector indexing pipeline using Weaviate for efficient retrieval}
+            \resumeItem{Integrated Gemini Pro via LangChain to generate grounded, context-aware responses}
+          \resumeItemListEnd
+      \resumeProjectHeading
+
+
+
+
+
+          
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL , JavaScript, HTML/CSS, Mongodb. } \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI, bootstrap. } \\
+     \textbf{Developer Tools}{: Git, Docker, AWS, VS Code, Visual Studio, linux, Vim.} \\
+     }
+\section{Awards \& Honors}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{• TechXccelerate, BITS Hyderabad - Anakto wallet}{ - 1st Runner Up TechXccelerate, BITS Hyderabad, Anakto wallet 2024.} \\
+     \textbf{• Hackpick by altrusity}{ - 1st Runner Up - Hackpick by altrusity 2025.} \\
+     
+
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
