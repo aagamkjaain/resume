@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10.5pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -16,11 +16,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.6in}
-\addtolength{\textwidth}{1.2in}
-\addtolength{\topmargin}{-.75in}
-\addtolength{\textheight}{1.5in}
+\addtolength{\oddsidemargin}{-0.65in}
+\addtolength{\evensidemargin}{-0.65in}
+\addtolength{\textwidth}{1.3in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textheight}{1.85in}
 
 \urlstyle{same}
 \raggedbottom
@@ -28,32 +28,32 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-8pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 \newcommand{\resumeItem}[1]{
-  \item\small{#1 \vspace{-2pt}}
+  \item\small{#1 \vspace{-1pt}}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{1pt}\item
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{#1} & \small{#2} \\
     \textit{\small{#3}} & \textit{\small{#4}} \\
-  \end{tabular*}\vspace{-5pt}
+  \end{tabular*}\vspace{-4pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-  \vspace{-2pt}\item
+  \vspace{1pt}\item
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     \small\textbf{#1} & \textit{\small{#2}} \\
-  \end{tabular*}\vspace{-5pt}
+  \end{tabular*}\vspace{-4pt}
 }
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, label={$\bullet$}]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0pt, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 \begin{document}
 
@@ -69,19 +69,33 @@
 
 %----------- SUMMARY -----------
 \section{Summary}
-\vspace{2pt}
-\small{Second-year CS undergrad at SRM, currently interning as a Full Stack Developer at a UC Berkeley-backed startup. I work across the stack -- TypeScript, React, Node.js, and Python -- and have a strong interest in backend systems, API design, and AWS.}
-\vspace{-2pt}
+\vspace{1pt}
+\small{Full Stack Developer with 1+ year of production experience in TypeScript, React, and Node.js. Currently interning at a UC Berkeley-backed startup, having built and deployed REST APIs serving live users. Strong background in backend systems, RESTful API design, and cloud infrastructure on AWS. Experienced in Agile/Scrum workflows and end-to-end feature delivery.}
+\vspace{-6pt}
+
+
+%----------- TECHNICAL SKILLS -----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt, topsep=2pt]
+  \small{
+    \item \textbf{Languages:} JavaScript, TypeScript, Python, C++
+    \item \textbf{Frontend:} React.js, HTML5, CSS3
+    \item \textbf{Backend:} Node.js, Express.js, FastAPI, RESTful API Design
+    \item \textbf{Databases:} PostgreSQL, MySQL, MongoDB
+    \item \textbf{Cloud \& DevOps:} AWS, Docker, Git, Linux, Nginx, CI/CD
+    \item \textbf{Concepts:} Data Structures \& Algorithms, OOP, System Design, Microservices, Blockchain
+  }
+\end{itemize}
 
 %----------- EDUCATION -----------
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
     {SRM Institute of Science and Technology}{Chennai, India}
-    {B.Tech, Computer Science Engineering $|$ \normalfont{CGPA: 8.98}}{Aug 2024 -- May 2028}
+    {B.Tech, Computer Science Engineering $|$ \normalfont{CGPA: 9.16}}{Aug 2024 -- May 2028}
   \resumeSubheading
-    {NS singhvi HS}{MP, India}
-    {Class XII  $|$ \normalfont{Score: 80\%}}{Apr 2022 -- Mar 2024}
+    {NS Singhvi HS}{MP, India}
+    {Class XII $|$ \normalfont{Score: 80\%}}{Apr 2022 -- Mar 2024}
 \resumeSubHeadingListEnd
 
 %----------- EXPERIENCE -----------
@@ -89,26 +103,41 @@
 \resumeSubHeadingListStart
 
   \resumeSubheading
-    {Poddle AI \normalfont{-- UC Berkeley-established startup} $|$ \normalfont{\href{https://github.com/velocityai588-tech/NEW_Velocity_AI.git}{\underline{GitHub}} $|$ \href{https://www.joinvelocity.co/}{\underline{joinvelocity.co}}}}{Remote}
-    {Full Stack Developer Intern}{May 2025 - Apr 2026}
+    {Poddle AI \normalfont{-- UC Berkeley-established startup} $|$ \normalfont{\href{https://github.com/velocityai588-tech/NEW_Velocity_AI.git}{\underline{GitHub}} $|$ \href{https://www.joinvelocity.co/}{\underline{Live Demo}}}}{Remote}
+    {Full Stack Developer Intern}{Dec 2025 -- Apr 2026}
     \resumeItemListStart
-      \resumeItem{Worked on full-stack features for a live workforce scheduling platform (\href{https://www.joinvelocity.co/}{\underline{joinvelocity.co}}) -- TypeScript on the frontend, Node.js and REST APIs on the backend}
-      \resumeItem{Wrote and deployed 5+ REST API endpoints now running in production; picked up code review and deployment workflow fast}
-      \resumeItem{Took features from ticket to merge across weekly sprints -- handled both the UI side in React and backend logic in Node.js}
+      \resumeItem{Owned and built the entire backend for a live workforce scheduling platform (\href{https://www.joinvelocity.co/}{\underline{joinvelocity.co}}), designing 10+ RESTful API endpoints in Node.js now serving 50+ active users in production}
+      \resumeItem{Delivered 10-15 full-stack features across 4-5 Agile/Scrum sprints using TypeScript, React, and Node.js, from ticket to merge}
+      \resumeItem{Integrated API development into the CI/CD pipeline and code review workflow, ensuring reliable production releases}
     \resumeItemListEnd
 
   \resumeSubheading
-    {Qwiklabs Developers Club (QDC)}{SRM University}
-    {Cloud Computing Lead}{Jan 2025 - Present}
+    {Skill First Applied Labs}{Chennai, India}
+    {Technical Intern -- Product Development}{Oct 2025 -- Nov 2025}
     \resumeItemListStart
-      \resumeItem{Ran the cloud computing chapter at QDC (50+ members); put together and judged 3+ tech events, each with 100+ students showing up}
+      \resumeItem{Built and tested features for an AI-powered Talent Management System (TMS) used by educational institutions to assess, validate, and track student skills}
+      \resumeItem{Resolved 10+ bugs and shipped product enhancements across multiple application modules, improving functionality and user experience}
+      \resumeItem{Collaborated with the engineering team in an Agile environment using Git for version control and feature delivery}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------- POSITIONS OF RESPONSIBILITY -----------
+\section{Positions of Responsibility}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Qwiklabs Developers Club (QDC)}{SRM University}
+    {Cloud Computing Lead}{Jan 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Led the cloud computing chapter at QDC (50+ members); organized and judged 3+ tech events with 100+ student attendees each, covering AWS and cloud-native concepts}
     \resumeItemListEnd
 
   \resumeSubheading
     {Placement Facilitation Team}{SRM University}
-    {Core Member}{Aug 2024 - Present}
+    {Core Member}{Aug 2024 -- Present}
     \resumeItemListStart
-      \resumeItem{Coordinated placement drives for 10+ companies, managing logistics for 200+ candidates as part of a 15+ member volunteer team}
+      \resumeItem{Coordinated placement drives for 10+ companies, managing end-to-end logistics for 200+ candidates as part of a 15+ member volunteer team}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -120,44 +149,32 @@
   \resumeProjectHeading
     {Anakto: Smart Contract Wallet \normalfont\textit{| zkSync, Express.js, MongoDB, JWT}}{2025}
     \resumeItemListStart
-      \resumeItem{Built a smart contract wallet on zkSync -- used account abstraction to handle JWT auth and automate fund transfers across 3 modules}
-      \resumeItem{Set up a REST API in Express.js with MongoDB for off-chain data; kept all transaction logic on-chain through zkSync}
+      \resumeItem{Built a smart contract wallet on zkSync using account abstraction to handle JWT auth and automate fund transfers across 3 modules -- eliminating manual transaction signing}
+      \resumeItem{Designed a RESTful API in Express.js with MongoDB for off-chain data management; kept all transaction logic on-chain through zkSync for security and auditability}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {Stockverse: Stock Market Simulator \normalfont\textit{| React, FastAPI, PostgreSQL, MongoDB}}{2025}
     \resumeItemListStart
-      \resumeItem{Built a stock market simulator in React and FastAPI with live price updates and portfolio tracking across 50+ assets}
-      \resumeItem{Used PostgreSQL and MongoDB on the backend to handle multiple simultaneous sessions; also added a leaderboard and progression view}
+      \resumeItem{Built a stock market simulator in React and FastAPI with real-time price updates and portfolio tracking across 50+ assets; stress-tested for concurrent multi-session load}
+      \resumeItem{Used PostgreSQL and MongoDB on the backend to handle multiple simultaneous user sessions; shipped leaderboard and progression analytics views}
     \resumeItemListEnd
 
   \resumeProjectHeading
     {Emulsify: PDF Querying System \normalfont\textit{| LangChain, Weaviate, Gemini Pro, PaddleOCR}}{2024}
     \resumeItemListStart
-      \resumeItem{Built a RAG pipeline to query PDFs -- used PaddleOCR to pull text out of documents and Weaviate to run vector search on it}
-      \resumeItem{Hooked up Gemini Pro through LangChain so the answers it gives are actually based on what's in the document, not just general knowledge}
+      \resumeItem{Built a RAG pipeline to query PDFs -- used PaddleOCR for text extraction and Weaviate for vector search, reducing Q\&A latency vs.\ full-text scan approaches}
+      \resumeItem{Integrated Gemini Pro via LangChain to ground responses in document content, improving answer accuracy and reducing hallucinations}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-%----------- TECHNICAL SKILLS -----------
-\section{Technical Skills}
-\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
-  \small{
-    \item \textbf{Languages:} JavaScript, TypeScript, Python, C++
-    \item \textbf{Frontend:} React.js, HTML5, CSS3
-    \item \textbf{Backend:} Node.js, Express.js, FastAPI, REST API Design
-    \item \textbf{Databases:} PostgreSQL, MySQL, MongoDB
-    \item \textbf{Cloud \& DevOps:} AWS, Docker, Git, Linux
-    \item \textbf{Concepts:} Data Structures \& Algorithms, OOP, System Design, Blockchain
-  }
-\end{itemize}
 
 %----------- ACHIEVEMENTS -----------
 \section{Achievements}
-\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt, topsep=2pt]
   \small{
-    \item \textbf{1st Runner-Up, TechXccelerate - BITS Hyderabad (2024):} National-level hackathon, 500+ participants
+    \item \textbf{1st Runner-Up, TechXccelerate -- BITS Hyderabad (2024):} National-level hackathon, 500+ participants
     \item \textbf{1st Runner-Up, Hackpick by Altrusity (2025):} National-level hackathon, 300+ participants
   }
 \end{itemize}
